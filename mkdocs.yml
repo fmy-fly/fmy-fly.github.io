@@ -1,0 +1,148 @@
+nav:
+  - 🏡 Home: # 主页/
+      - index.md
+
+  - C++:
+      - cpp/index.md
+      - C++零碎杂记:
+          - 值类型与右值引用: cpp/零碎杂记/值类型与右值引用.md
+      - Effective Modern C++:
+          - item1：理解模板类型推导: cpp/effective/item1.md
+
+  # - Golang:
+  #     - go/index.md
+
+site_name: fmy's notes
+site_url: https://fmy-fly.github.io/
+repo_name: fmy-fly.github.io
+repo_url: https://github.com/fmy-fly/fmy-fly.github.io/
+
+theme:
+  name: material
+  logo: logo.ico
+  favicon: logo.ico
+  features:
+    - navigation.tabs # 一级导航在横着的导航栏
+    - content.code.annotate # 可以在代码块中增添点击展示的注释，参见 https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations
+    # - navigation.tracking # 地址栏中的 URL 会随当前位置变化为对应小节的 URL
+    - navigation.indexes # 将 index 页面直接附到小节名上
+    - navigation.top # 回到顶部按钮
+    # - navigation.sections # 二级导航是粗体
+    # - navigation.expand # 导航默认展开
+    - toc.follow # toc 跟随
+    # - toc.integrate # 文档 toc 集成到总目录中
+  language: "zh"
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: purpe
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Noto Serif SC # Roboto
+    code: Roboto Mono
+  custom_dir: overrides
+
+edit_uri: ""
+
+markdown_extensions:
+  - toc:
+      permalink: true # link for each title
+      slugify: !!python/name:pymdownx.slugs.uslugify # enable Unicode link
+
+
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - meta
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      # smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets: # 允许将其他文件内容插入文件，语法是 --8<-- "filename.ext" 等，参见 https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#snippets-notation
+      auto_append:
+        - includes/abbreviations.md
+      base_path: ["docs"]
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  analytics:
+    provider: google
+    property: G-JT9BRCXKJJ
+  # social:
+  #   - icon: fontawesome/brands/github
+  #     link: https://github.com/smd1121
+  #   - icon: fontawesome/solid/envelope
+  #     link: mailto:xianyuxuan@outlook.com
+
+# extra:
+#   search:
+#     language: 'jp'
+#   pagetime: 'on'
+
+copyright: '本页面的全部内容在 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a> 协议之条款下提供，附加条款亦可能应用'
+
+extra_css:
+  - "from_oi_wiki/css/extra.css?v=13"
+  - css/status.css
+  - css/neoteroi-mkdocs.css
+
+extra_javascript:
+  - "from_oi_wiki/js/extra.js"
+  - js/mathjax.js # 支持数学公式，ref : https://squidfunk.github.io/mkdocs-material/reference/mathjax
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 支持表格排序
+  - js/tablesort.js
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - statistics
+  - termynal:
+      title: ""
+      buttons: macos
+      prompt_literal_start:
+        - "$"
+        - ">"
+        - "%"
