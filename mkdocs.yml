@@ -1,5 +1,5 @@
 nav:
-  - 🏡 Home: # 主页/
+  - 🏡 主页: # 主页/
       - index.md
 
   - C++:
@@ -9,8 +9,23 @@ nav:
       - Effective Modern C++:
           - item1：理解模板类型推导: cpp/effective/item1.md
 
-  # - Golang:
-  #     - go/index.md
+  - vue:
+      - vue/index.md
+  - 零碎知识:
+      - fragment/index.md
+      - 命名规范:
+        - 英文单词规范: fragment\命名规范\name_ruler.md
+        
+
+
+  - 算法:
+      - algorithm/index.md
+      - 数学:
+        - gcd && lcm: algorithm/数学/gcd&lcm.md
+      - 经典算法:
+        - 反转链表: algorithm/经典算法/ReverseLinkedList.md
+
+
 
 site_name: fmy's notes
 site_url: https://fmy-fly.github.io/
@@ -35,7 +50,7 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary: purpe
+      primary: pink
       accent: cyan
       toggle:
         icon: material/brightness-7

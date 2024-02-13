@@ -10,7 +10,7 @@ statistics: true
 
 
 ???+ example "📚内容分类"
-    - [C++学习](cpp/index.md)
+    - [C++学习](note/index.md)
           - C++零碎杂记
           - Effective Modern C++ 阅读笔记
 
