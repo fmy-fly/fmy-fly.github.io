@@ -4,6 +4,22 @@ nav:
 
   - C++:
       - cpp/index.md
+      - C++基础知识:
+        - 文件操作: cpp/base/文件操作.md
+        - 运算符重载:
+          - 加号运算符重载: cpp/base/运算符重载/加号运算符重载.md
+          - 左移运算符重载: cpp/base/运算符重载/左移运算符重载.md
+          - 自增运算符重载: cpp/base/运算符重载/自增运算符重载.md
+          - 赋值运算符重载: cpp/base/运算符重载/赋值运算符重载.md
+          - 关系运算符重载: cpp/base/运算符重载/关系运算符重载.md
+          - 函数运算符重载: cpp/base/运算符重载/函数调用运算符重载.md
+        - stl库函数: cpp/base/stl.md
+
+
+      - 常用api: 
+        - 随机数: cpp/api/rand.md
+
+      
       - C++零碎杂记:
           - 值类型与右值引用: cpp/零碎杂记/值类型与右值引用.md
       - Effective Modern C++:
@@ -50,7 +66,7 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary: pink
+      primary: cyan
       accent: cyan
       toggle:
         icon: material/brightness-7
