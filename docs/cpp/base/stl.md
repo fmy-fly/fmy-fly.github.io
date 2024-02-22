@@ -39,6 +39,8 @@
    d.push_front(10); //前插
    d.pop_back(); //后删
    d.pop_front();//前删
+    int front = d.front(); //获取第一个元素
+    int back = d.back(); //获取最后一个元素
    //d[i] 支持随机访问
    //遍历
    for (deque<int>:: const_iterator it = d.begin(); it != d.end(); it++) {

@@ -14,12 +14,20 @@ nav:
           - 关系运算符重载: cpp/base/运算符重载/关系运算符重载.md
           - 函数运算符重载: cpp/base/运算符重载/函数调用运算符重载.md
         - stl库函数: cpp/base/stl.md
-
+        - 指针:
+          - 函数指针: cpp/base/指针/函数指针.md
 
       - 常用api: 
         - 随机数: cpp/api/rand.md
 
-      
+      - c知识:
+        - 字符串函数: cpp/c/字符串函数.md
+
+      - 内存分区模型:
+        - 分区详情: cpp/内存分区模型/分区详情.md
+
+
+
       - C++零碎杂记:
           - 值类型与右值引用: cpp/零碎杂记/值类型与右值引用.md
       - Effective Modern C++:
@@ -40,8 +48,10 @@ nav:
         - gcd && lcm: algorithm/数学/gcd&lcm.md
       - 经典算法:
         - 反转链表: algorithm/经典算法/ReverseLinkedList.md
-
-
+      - 二叉树:
+        - 前序中序构造树: algorithm/二叉树/前序+中序构造树.md
+        - 后序中序构造树: algorithm/二叉树/后序+中序构造树.md
+        - 前序后序构造树: algorithm/二叉树/前序+后序构造树.md
 
 site_name: fmy's notes
 site_url: https://fmy-fly.github.io/
