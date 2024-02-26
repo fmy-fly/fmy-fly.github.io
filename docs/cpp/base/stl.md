@@ -22,6 +22,8 @@
 ```cpp
     vector<int> v;
     v.push_back(1); // 存放数据
+    int f = v.front(); //取第一个数
+    int b = v.back(); //取最后一个数
     //v[i]进行索引
     //v.begin()返回迭代器，这个迭代器指向容器中第一个数据
     //v.end()返回迭代器，这个迭代器指向容器元素的最后一个元素的下一个位置
@@ -29,6 +31,9 @@
     for (vector<int>::iterator it = v.begin(); it != v.end(); it++) {
         cout << *it << endl;
     }
+    //排序
+    sort(v.begin(), v.end(), greater<int>());
+
 ```
 
 ### **4.deque**

@@ -49,9 +49,23 @@ nav:
       - 经典算法:
         - 反转链表: algorithm/经典算法/ReverseLinkedList.md
       - 二叉树:
+        - 二叉搜索树:
+          - 关于二叉搜索树: algorithm/二叉树/二叉搜索树/关于二叉搜索树.md
         - 前序中序构造树: algorithm/二叉树/前序+中序构造树.md
         - 后序中序构造树: algorithm/二叉树/后序+中序构造树.md
         - 前序后序构造树: algorithm/二叉树/前序+后序构造树.md
+
+  - 生活:
+    - life/index.md
+    # - 游戏王md:
+    #   - life/游戏王md/index.md
+    #   - 废二:
+    #     - 废二展开: life/游戏王md/废二/废二展开.md
+
+    - 生活作息规划:
+      - life/生活作息规划/index.md
+      - 时间表: life/生活作息规划/时间表.md
+
 
 site_name: fmy's notes
 site_url: https://fmy-fly.github.io/
