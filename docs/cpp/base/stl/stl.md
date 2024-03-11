@@ -4,11 +4,12 @@
     str = "123123";
     int pos = str.find("4"); // - 1表示未找到
     int posr = str.rfind("4"); // rfind是查找最后一次匹配的位置,find是第一次
-    str.replace(1, 3, "1111"); //替换的起始位置和结束位置
+    str.replace(1, 3, "1111"); //替换的起始位置和替换长度
     str.insert(1, "111"); //从1号位置开始插入
     str.erase(1, 3);  //1号位置开始的3个字符删除
     string subStr = str.substr(1, 3); // 获取1号位置到3号位置的子串
     //可以省略结束位置参数，表示到结尾
+    reverse(s.begin(),s.end());//翻转字符串
     subStr = str.substr(1);
 ```
 ### **2.pair**
@@ -182,6 +183,17 @@ int main(){
  for ( 不同类型 <int>:: const_iterator it = d.begin(); it != d.end(); it++) {
         cout << *it << " ";
     }
+```
+- 初始化:assign()
+```cpp
+vector<char> v;
+string a = "abc";
+v.assign(a.begin(),a.end());
+```
+- 地址初始化
+```cpp
+int a [5] = {1,2,3,4,5,};
+vector<int> v(a,a+5);
 ```
 
 
