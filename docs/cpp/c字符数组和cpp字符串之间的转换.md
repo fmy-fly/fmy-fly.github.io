@@ -19,3 +19,21 @@ char s2 [] = "abc";
 string t1;
 t1 = s2
 ```
+
+
+## char * 与char []的转换
+
+```cpp
+char str[] = "example";
+char *ptr = str; // 直接将数组名赋给指针即可
+
+
+
+
+
+
+const char *ptr = "example";
+int len = strlen(ptr);
+char arr[len + 1]; // 需要额外的空间来存储字符串的拷贝以及终止符 '\0'
+strcpy(arr, ptr);
+```

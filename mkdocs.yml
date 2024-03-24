@@ -9,13 +9,16 @@ nav:
       - c字符数组和cpp字符串之间的转换: cpp/c字符数组和cpp字符串之间的转换.md
       - 读入问题: cpp/读入问题.md
       - C++基础知识:
-      
+        - stringstream: cpp/base/stringstream.md
         - 类:
             - 静态数据成员: cpp/base/类/静态数据成员.md
         - 文件操作: 
           - 写入/读出: cpp/base/文件操作/文件操作.md
           - 调整指针位置: cpp/base/文件操作/指针位置调整.md
-          
+        - 模板:
+          - 数组类模板: cpp/base/模板/数组类模板.md
+          - 栈类模板: cpp/base/模板/栈类模板.md
+          - 链表类模板: cpp/base/模板/链表类模板.md
         - 运算符重载:
           - 加号运算符重载: cpp/base/运算符重载/加号运算符重载.md
           - 左移运算符重载: cpp/base/运算符重载/左移运算符重载.md
