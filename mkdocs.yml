@@ -1,7 +1,15 @@
 nav:
   - 🏡 主页: # 主页/
       - index.md
-
+  - java:
+      - java/index.md
+    
+      - 基础语法:
+        - 并行: java/基础语法/并行.md
+      - redis:
+        - NoSQL: java/redis/NoSQL.md
+        - redis介绍: java/redis/redis.md
+        - jedis: java/redis/jedis.md
   - C++:
       - cpp/index.md
       - 复试注意点-553: cpp/553.md
@@ -80,10 +88,13 @@ nav:
 
   - 生活:
     - life/index.md
-    # - 游戏王md:
-    #   - life/游戏王md/index.md
-    #   - 废二:
-    #     - 废二展开: life/游戏王md/废二/废二展开.md
+    - 日记:
+      - 2024年4月: life/日记/2024_4.md
+    - 娱乐:
+      - 游戏王md:
+        - life/娱乐/游戏王md/index.md
+        - 废二:
+          - 废二展开: life/娱乐/游戏王md/废二/废二展开.md
 
     - 生活作息规划:
       - life/生活作息规划/index.md

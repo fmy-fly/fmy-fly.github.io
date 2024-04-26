@@ -13,6 +13,4 @@ while(ss >> word){
     cnt++;
 }
 cout << cnt << endl;
-
-
 ```
