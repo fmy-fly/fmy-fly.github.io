@@ -6,10 +6,15 @@ nav:
     
       - 基础语法:
         - 并行: java/基础语法/并行.md
+      - javaWeb:
+        - Tomcat: java/javaWeb/Tomcat.md
       - redis:
         - NoSQL: java/redis/NoSQL.md
         - redis介绍: java/redis/redis.md
         - jedis: java/redis/jedis.md
+        - SpringDataRedis: java/redis/SpringDataRedis.md
+        - 缓存: java/redis/缓存.md
+        - Redisson: java/redis/Redisson.md
   - C++:
       - cpp/index.md
       - 复试注意点-553: cpp/553.md
@@ -57,20 +62,16 @@ nav:
 
 
 
-      - C++零碎杂记:
-          - 值类型与右值引用: cpp/零碎杂记/值类型与右值引用.md
-      - Effective Modern C++:
-          - item1：理解模板类型推导: cpp/effective/item1.md
-
-  - vue:
-      - vue/index.md
+  - 核心知识:
+    - essential_knowledge/index.md
+    - 计网:
+      - 身份认证与会话管理: essential_knowledge/computer_network/身份认证与会话管理.md
+      - HTTP协议: essential_knowledge/computer_network/http.md
   - 零碎知识:
       - fragmentKnowledge/index.md
       - 命名规范:
         - 英文单词规范: fragmentKnowledge/命名规范/nameruler.md
         
-
-
   - 算法:
       - algorithm/index.md
       - 数学:
@@ -85,11 +86,18 @@ nav:
         - 前序中序构造树: algorithm/二叉树/前序+中序构造树.md
         - 后序中序构造树: algorithm/二叉树/后序+中序构造树.md
         - 前序后序构造树: algorithm/二叉树/前序+后序构造树.md
-
   - 生活:
     - life/index.md
+    - 照片:
+        - 苏州:
+          - 苏大:
+              - 本科毕业照: life/照片/苏州/苏大/本科毕业照.md
+              - 随手一拍: life/照片/苏州/苏大/随手一拍.md
+      
+            
     - 日记:
       - 2024年4月: life/日记/2024_4.md
+      - 2024年5月: life/日记/2024_5.md
     - 娱乐:
       - 游戏王md:
         - life/娱乐/游戏王md/index.md

@@ -1,10 +1,12 @@
 # jedis
 
-![alt text](redis的客户端介绍图.png)
+![alt text](picture/redis的客户端介绍图.png)
+
 ## jedis直连方式
 
 ### 1.引入依赖
-```java
+
+```xml
 <dependency>
     <groupId>redis.clients</groupId>
     <artifactId>jedis</artifactId>
@@ -13,12 +15,13 @@
 ```
 
 ### 2.建立连接
+
 ```java
 private Jedis jedis;
 @BeforeEach
 void setUp() {
     // 建立连接
-    jedis = new Jedis("192.168.150.101", 6379);
+    jedis = new Jedis("172.18.84.81", 6379);
     // 设置密码
     jedis.auth("123321");
     // 选择库
@@ -27,6 +30,7 @@ void setUp() {
 ```
 
 ### 3.测试string
+
 ```java
 @Test
 void testString() {
@@ -38,7 +42,9 @@ void testString() {
     System.out.println("name = " + name);
 }
 ```
+
 ### 4.释放资源
+
 ```java
 @AfterEach
 void tearDown() {
@@ -50,23 +56,24 @@ void tearDown() {
 ```
 
 ## jedis连接池
-        Jedis本身是线程不安全的，并且频繁的创建和销毁连接会有性能损耗，因此最好使用使用Jedis连
+
+    Jedis本身是线程不安全的，并且频繁的创建和销毁连接会有性能损耗，因此最好使用使用Jedis连
     接池代替Jedis的直连方式。
-    
+
 ```java
 public class JedisConnectionFactory {
     private static final JedisPool jedisPool;
     static {
         JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
         // 最大连接
-            edisPoolConfig.setMaxTotal(8);
+        jedisPoolConfig.setMaxTotal(8);
         // 最大空闲连接
         jedisPoolConfig.setMaxIdle(8);
         // 最小空闲连接
         jedisPoolConfig.setMinIdle(0);
         // 设置最长等待时间， ms
         jedisPoolConfig.setMaxWaitMillis(200);
-        jedisPool = new JedisPool(jedisPoolConfig, "192.168.150.101", 6379,1000, "123321");
+        jedisPool = new JedisPool(jedisPoolConfig, "172.18.84.81", 6379,1000);
     }
     // 获取Jedis对象
     public static Jedis getJedis(){
