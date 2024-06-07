@@ -8,6 +8,11 @@ nav:
         - 并行: java/基础语法/并行.md
       - javaWeb:
         - Tomcat: java/javaWeb/Tomcat.md
+
+      - Springbooot:
+        - Springboot原理: java/Springboot/Springboot原理.md
+        - 配置优先级: java/Springboot/配置优先级.md
+        - bean: java/Springboot/bean管理.md
       - redis:
         - NoSQL: java/redis/NoSQL.md
         - redis介绍: java/redis/redis.md
@@ -74,6 +79,9 @@ nav:
         
   - 算法:
       - algorithm/index.md
+      - 基础算法: 
+        - 单调栈: algorithm/基础算法/单调栈.md
+        - 前缀和: algorithm/基础算法/前缀和.md
       - 数学:
         - gcd && lcm: algorithm/数学/gcd&lcm.md
       - 经典算法:
@@ -86,6 +94,9 @@ nav:
         - 前序中序构造树: algorithm/二叉树/前序+中序构造树.md
         - 后序中序构造树: algorithm/二叉树/后序+中序构造树.md
         - 前序后序构造树: algorithm/二叉树/前序+后序构造树.md
+      - 图论: 
+        - 基础模板: algorithm/图论/基础模板.md
+      
   - 生活:
     - life/index.md
     - 照片:

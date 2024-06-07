@@ -8,4 +8,10 @@
     2.输入exit退出redis-cli
 ## redis 启动
     redis-serve 
-   
+
+## 常用类型
+- 字符串
+- 哈希
+- 列表
+- 集合
+- 有序集合
