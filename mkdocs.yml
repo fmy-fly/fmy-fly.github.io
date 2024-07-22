@@ -6,6 +6,7 @@ nav:
     
       - 基础语法:
         - 并行: java/基础语法/并行.md
+        - 反射: java/基础语法/反射机制.md
       - javaWeb:
         - Tomcat: java/javaWeb/Tomcat.md
 
@@ -70,8 +71,10 @@ nav:
   - 核心知识:
     - essential_knowledge/index.md
     - 计网:
+      - tcp与udp: essential_knowledge/computer_network/tcp与udp.md
       - 身份认证与会话管理: essential_knowledge/computer_network/身份认证与会话管理.md
       - HTTP协议: essential_knowledge/computer_network/http.md
+
   - 零碎知识:
       - fragmentKnowledge/index.md
       - 命名规范:
