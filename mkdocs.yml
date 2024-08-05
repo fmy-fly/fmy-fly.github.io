@@ -88,6 +88,7 @@ nav:
       - 数学:
         - gcd && lcm: algorithm/数学/gcd&lcm.md
       - 经典算法:
+        - 回文串判断: algorithm/经典算法/回文串判断.md
         - 反转链表: algorithm/经典算法/ReverseLinkedList.md
         - 简单排序算法: algorithm/经典算法/简单排序算法.md
         - 数组位置交换: algorithm/经典算法/数组交换位置.md
@@ -99,6 +100,17 @@ nav:
         - 前序后序构造树: algorithm/二叉树/前序+后序构造树.md
       - 图论: 
         - 基础模板: algorithm/图论/基础模板.md
+
+  - 后端八股:
+    - backendKnowledge/index.md
+    - 计网:
+      - http请求方法: backendKnowledge/计网/http请求方法.md
+  
+  - git:
+    - git/index.md
+    - 分支: git/branch.md
+
+
       
   - 生活:
     - life/index.md
