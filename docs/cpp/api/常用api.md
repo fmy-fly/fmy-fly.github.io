@@ -28,3 +28,11 @@ for (int i = 0; i < s.length(); i++)s[i] = tolower(s[i]);
 例如，ceil(3.2) 将返回 4.0，ceil(-1.8) 将返回 -1.0。
 
 `double ceil(double x);`
+
+## 二进制转十进制
+```cpp
+int binaryToDecimal(const std::string& binary) {
+    return std::stoi(binary, nullptr, 2);
+}
+```
+

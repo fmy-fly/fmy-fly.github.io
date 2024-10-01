@@ -13,3 +13,10 @@ sort(v.begin(), v.end());
 int a[5] ={1,2,3,4,5};
 sort(a,a + 5);
 ```
+
+## 自定义排序
+```cpp
+ sort(rec.begin(), rec.end(), [](const vector<int>& a, const vector<int>& b) {
+            return a[0] > b[0];  // 降序排列，如果需要升序，将 `>` 改为 `<`
+    });
+```

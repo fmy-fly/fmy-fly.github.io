@@ -65,6 +65,14 @@ nav:
 
       - 内存分区模型:
         - 分区详情: cpp/内存分区模型/分区详情.md
+  - 前端:
+    - front_end/index.md
+    - vue快速上手: front_end/vue.md
+
+  - 项目:
+    - project/index.md
+    - 做项目流程: project/做项目流程.md
+    
 
 
 
@@ -83,8 +91,14 @@ nav:
   - 算法:
       - algorithm/index.md
       - 基础算法: 
+        - 公共面积: algorithm/基础算法/公共面积.md
+        - kmp:  algorithm/基础算法/kmp.md
         - 单调栈: algorithm/基础算法/单调栈.md
         - 前缀和: algorithm/基础算法/前缀和.md
+      - 动态规划:
+        - 数位dp: algorithm/dp/数位dp.md
+      - 字符串:
+        - 字符串哈希: algorithm/字符串/字符串哈希.md
       - 数学:
         - gcd && lcm: algorithm/数学/gcd&lcm.md
       - 经典算法:

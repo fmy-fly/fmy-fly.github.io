@@ -79,6 +79,7 @@ public Result clean() {
     return Result.success();
 }
 ```
+
 ## 总结
 - GET请求用于获取资源，参数在URL中，幂等。
 - POST请求用于提交数据，参数在请求体中，不幂等。

@@ -25,6 +25,7 @@
     v.push_back(1); // 存放数据
     int f = v.front(); //取第一个数
     int b = v.back(); //取最后一个数
+    v.pop_back();
     //v[i]进行索引
     //v.begin()返回迭代器，这个迭代器指向容器中第一个数据
     //v.end()返回迭代器，这个迭代器指向容器元素的最后一个元素的下一个位置
@@ -75,7 +76,10 @@
 
 ### **7.priority_queue**
 ```cpp
-    priority_queue<int> pq;
+    priority_queue<int> pq; //默认为大根堆
+    priority_queue<int, vector<int>, greater<int>> minHeap;
+    priority_queue<int, vector<int>, less<int>> maxHeap;
+
     // 插入元素
     pq.push(10);
     // 删除元素
