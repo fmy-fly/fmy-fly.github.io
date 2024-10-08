@@ -67,7 +67,18 @@ nav:
         - 分区详情: cpp/内存分区模型/分区详情.md
   - 前端:
     - front_end/index.md
-    - vue快速上手: front_end/vue.md
+    - Vue3简介: front_end/Vue3简介.md
+    - 创建Vue3工程: front_end/创建Vue3工程.md
+    - Vue3核心语法: front_end/Vue3核心语法.md
+    - 路由: front_end/路由.md
+    - pinia : front_end/pinia.md
+    - 组件通信: front_end/组件通信.md
+    - 其它 API: front_end/其它 API.md
+    - Vue3新组件: front_end/Vue3新组件.md
+
+
+
+
 
   - 项目:
     - project/index.md
