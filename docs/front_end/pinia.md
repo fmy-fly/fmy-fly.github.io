@@ -4,7 +4,8 @@
 
 ## 5.1【准备一个效果】
 
-<img src="./images/pinia_example.gif" alt="pinia_example" style="zoom:30%;border:3px solid" /> 
+![alt text](../images/pinia_example.gif)
+
 
 ## 5.2【搭建 pinia 环境】
 
@@ -30,7 +31,8 @@ app.mount('#app')
 
 此时开发者工具中已经有了`pinia`选项
 
-<img src="https://cdn.nlark.com/yuque/0/2023/png/35780599/1684309952481-c67f67f9-d1a3-4d69-8bd6-2b381e003f31.png" style="zoom:80%;border:1px solid black;border-radius:10px" />
+![picture](../images/pinia.png)
+
 
 ## 5.3【存储+读取数据】
 

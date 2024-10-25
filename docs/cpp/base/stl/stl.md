@@ -93,6 +93,17 @@
     }
 ```
 
+按第一个元素大小**升序**排序 
+```cpp
+struct Compare {
+    bool operator()(const vector<int>& a, const vector<int>& b) {
+        return a[0] > b[0];  // 返回 true 表示 a 的优先级低于 b
+    }
+};
+
+priority_queue<vector<int>, vector<vector<int>>, Compare> q;
+```
+
 ### **8.list**
 
 ```cpp
