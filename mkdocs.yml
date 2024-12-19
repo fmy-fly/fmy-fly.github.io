@@ -21,6 +21,11 @@ nav:
         - SpringDataRedis: java/redis/SpringDataRedis.md
         - 缓存: java/redis/缓存.md
         - Redisson: java/redis/Redisson.md
+      - ElasticSearch:
+        - 什么是ES: java/ElasticSearch/introduce.md
+        - 倒排索引: java/ElasticSearch/倒排索引.md
+        - ES基础知识: java/ElasticSearch/ES基础知识.md
+
   - C++:
       - cpp/index.md
       - 复试注意点-553: cpp/553.md
