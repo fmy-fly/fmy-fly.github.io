@@ -5,6 +5,7 @@ nav:
       - java/index.md
     
       - 基础语法:
+        - 库函数: java/基础语法/库函数.md
         - 并行: java/基础语法/并行.md
         - 反射: java/基础语法/反射机制.md
       - javaWeb:
@@ -20,12 +21,15 @@ nav:
         - jedis: java/redis/jedis.md
         - SpringDataRedis: java/redis/SpringDataRedis.md
         - 缓存: java/redis/缓存.md
+        - 缓存与数据库: java/redis/缓存与数据库.md
         - Redisson: java/redis/Redisson.md
+
+  
       - ElasticSearch:
         - 什么是ES: java/ElasticSearch/introduce.md
         - 倒排索引: java/ElasticSearch/倒排索引.md
         - ES基础知识: java/ElasticSearch/ES基础知识.md
-
+        - 打分机制: java/ElasticSearch/打分机制.md
   - C++:
       - cpp/index.md
       - 复试注意点-553: cpp/553.md
