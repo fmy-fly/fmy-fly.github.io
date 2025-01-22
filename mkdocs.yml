@@ -16,6 +16,7 @@ nav:
         - 配置优先级: java/Springboot/配置优先级.md
         - bean: java/Springboot/bean管理.md
       - redis:
+        - 单机配置集群redis: java/redis/单机配置集群redis.md
         - NoSQL: java/redis/NoSQL.md
         - redis介绍: java/redis/redis.md
         - jedis: java/redis/jedis.md
@@ -23,7 +24,7 @@ nav:
         - 缓存: java/redis/缓存.md
         - 缓存与数据库: java/redis/缓存与数据库.md
         - Redisson: java/redis/Redisson.md
-
+        - 分布式锁: java/redis/分布式锁.md
   
       - ElasticSearch:
         - 什么是ES: java/ElasticSearch/introduce.md
