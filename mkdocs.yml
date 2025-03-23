@@ -1,6 +1,7 @@
 nav:
   - 🏡 主页: # 主页/
       - index.md
+
   - java:
       - java/index.md
     
@@ -31,6 +32,9 @@ nav:
         - 倒排索引: java/ElasticSearch/倒排索引.md
         - ES基础知识: java/ElasticSearch/ES基础知识.md
         - 打分机制: java/ElasticSearch/打分机制.md
+
+      - 消息队列:
+        - MQ基础: java/消息队列/MQ基础.md
   - C++:
       - cpp/index.md
       - 复试注意点-553: cpp/553.md
@@ -75,6 +79,9 @@ nav:
 
       - 内存分区模型:
         - 分区详情: cpp/内存分区模型/分区详情.md
+  - linux: 
+    - wsl: 
+      - wsl配置代理: linux/wsl/wsl配置代理.md
   - 前端:
     - front_end/index.md
     - Vue3简介: front_end/Vue3简介.md
