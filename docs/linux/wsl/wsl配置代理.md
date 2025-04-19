@@ -9,3 +9,7 @@ autoProxy = true
 
 ## 关闭windows防火墙
 得把windows防火墙关闭
+
+
+
+
