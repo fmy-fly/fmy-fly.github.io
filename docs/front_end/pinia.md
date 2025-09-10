@@ -4,7 +4,7 @@
 
 ## 5.1【准备一个效果】
 
-![alt text](../images/pinia_example.gif)
+![alt text](images/pinia_example.gif)
 
 
 ## 5.2【搭建 pinia 环境】
@@ -31,7 +31,7 @@ app.mount('#app')
 
 此时开发者工具中已经有了`pinia`选项
 
-![picture](../images/pinia.png)
+![picture](images/pinia.png)
 
 
 ## 5.3【存储+读取数据】

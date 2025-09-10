@@ -16,7 +16,7 @@
 ![alt text](images/订单服务.png)
 
 ## MQ技术选型
-![alt text](iamges/技术选型.png)
+![alt text](images/技术选型.png)
 ps:阿里的开源软件bug有点多，基本上是冲业绩升级才开源，更新缓慢，RabbitMQ用的比较多。
 
 

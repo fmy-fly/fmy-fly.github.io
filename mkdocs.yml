@@ -226,10 +226,13 @@ theme:
 edit_uri: ""
 
 markdown_extensions:
-  - toc:
-      permalink: true # link for each title
-      slugify: !!python/name:pymdownx.slugs.uslugify # enable Unicode link
-
+  # - toc:
+  #     permalink: true # link for each title
+  #     slugify: !!python/name:pymdownx.slugs.slugify # enable Unicode link
+  #       separator: "-"
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
   - admonition
   - abbr
@@ -246,9 +249,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+ 
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
